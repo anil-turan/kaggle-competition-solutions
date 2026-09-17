@@ -12,7 +12,7 @@ competition submissions, building toward Kaggle Notebook Expert.
 
 | Competition | Type | Started | Status | Best public score | Notebook |
 |---|---|---|---|---|---|
-| [playground-series-s6e9](competitions/playground-series-s6e9/) | Binary classification (tabular) | 2026-09-17 | In progress | — | [notebooks](competitions/playground-series-s6e9/notebooks/) |
+| [playground-series-s6e9](competitions/playground-series-s6e9/) | Binary classification (tabular) | 2026-09-17 | In progress | 0.9417 CV AUC (LightGBM) | [notebooks](competitions/playground-series-s6e9/notebooks/) |
 
 ## Structure per competition
 
