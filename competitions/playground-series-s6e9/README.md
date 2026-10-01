@@ -67,10 +67,12 @@ signal is close to monotonic.
 | Submission | CV AUC | Public LB | Private LB |
 |---|---|---|---|
 | v1 — LightGBM baseline | 0.9417 | 0.94144 | 0.94091 |
+| v2 — tuned blend (late submission) | 0.94207 | 0.94186 | 0.94122 |
 
-CV and public leaderboard agree to within 0.0003, so the local 5-fold setup is a reliable
-proxy for the hidden test set. `submission_v2.csv` (the blend) was finished after the
-deadline and is submitted as a late entry.
+CV and public leaderboard agree to within 0.0003 for both submissions, so the local 5-fold
+setup is a reliable proxy for the hidden test set. The blend's +0.0004 OOF gain carried over
+to the leaderboard (+0.0003 private). v2 was finished after the 2026-09-30 deadline, so it is
+a late submission and does not count towards the final ranking.
 
 ## Key takeaways
 
